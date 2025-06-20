@@ -1,15 +1,27 @@
-## Topics
+# EP 01
 
-- [ ] #01 How JavaScript Works 🔥& Execution Context - 5 Min [https://youtu.be/ZvbzSrg0afE?si=aK8dD61jCLg36bft]
-- [ ] #02 How JavaScript Code is executed? ❤️& Call Stack - 24 Min [https://youtu.be/iLWTnMzWtj4?si=k-hBLcOReIfLTXFH]
-- [ ] #03 Hoisting in JavaScript 🔥(variables & functions) - 20 Min [https://youtu.be/Fnlnw8uY6jo?si=qyCeFeTmBl8QidGp]
-- [ ] #04 How functions work in JS ❤️ & Variable Environment - 22 Min [https://youtu.be/gSDncyuGw0s?si=mhMhBiWy_2B3N5Qo]
-- [ ] #05 SHORTEST JS Program 🔥window & this keyword - 9 Min [https://youtu.be/QCRpVw2KXf8?si=z5IBm0TruQdQVHc_]
-- [ ] #06 undefined vs not defined in JS 🤔 - 11 Min [https://youtu.be/B7iF6G3EyIk?si=z7zOzzeNtgi2zKu7]
-- [ ] #07 The Scope Chain, 🔥Scope & Lexical Environment - 20 Min [https://youtu.be/uH-tVP8MUs8?si=hu9oFvnnD9UHI076]
-- [ ] #08 let & const in JS 🔥Temporal Dead Zone - 22 Min [https://youtu.be/BNC6slYCj50?si=0A00mGlUTqnKXHMP]
-- [ ] #09 BLOCK SCOPE & Shadowing in JS - 20 Min [https://youtu.be/lW_erSjyMeM?si=-eMVFccZ4MDgr_WS]
-- [ ] #10 Closures in JS 🔥 | Namaste JavaScript Episode 10 -23 Min [https://youtu.be/qikxEIxsXco?si=xzHYdhHd2RVDGPiW]
-- [ ] #11 setTimeout + Closures Interview Question - 18 Min [https://youtu.be/qikxEIxsXco?si=xzHYdhHd2RVDGPiW]
-- [ ] #12 CRAZY JS INTERVIEW 🤯ft. Closures | Namaste 🙏 JavaScript Ep. 12 - 33 Min [https://youtu.be/t1nFAMws5FI?si=DqhmMphQ9NuLa8bp]
-- [ ]
+1. Everything in Javascript happens inside an **Execution Context**.
+2. it has two components:
+   - **Memory Component**: where variables and functions are stored. also called **Variable Environment**.
+   - **Code Component**: where the code is executed. also called **Thread of Execution**.
+3. Javascript is a **synchronous** **single-threaded** language, meaning it can only execute one task at a time. in specific order.
+4. Memory component as contains variables and functions as key-value pairs.
+5. Code component as contains the code to be executed in a specific order.
+
+---
+
+**Execution Context Diagram:**
+
+```
++-----------------------------+
+|      Execution Context      |
+|  +-----------------------+  |
+|  |   Memory Component    |  |   <-- Variable Environment
+|  |  (Variables, Funcs)   |  |
+|  +-----------------------+  |
+|  +-----------------------+  |
+|  |    Code Component     |  |   <-- Thread of Execution
+|  |   (Code Execution)    |  |
+|  +-----------------------+  |
++-----------------------------+
+```
