@@ -1,6 +1,6 @@
 ## Topics
 
-- [ ] #01 How JavaScript Works 🔥& Execution Context - 5 Min [https://youtu.be/ZvbzSrg0afE?si=aK8dD61jCLg36bft]
+- [x] #01 How JavaScript Works 🔥& Execution Context - 5 Min [https://youtu.be/ZvbzSrg0afE?si=aK8dD61jCLg36bft]
 - [ ] #02 How JavaScript Code is executed? ❤️& Call Stack - 24 Min [https://youtu.be/iLWTnMzWtj4?si=k-hBLcOReIfLTXFH]
 - [ ] #03 Hoisting in JavaScript 🔥(variables & functions) - 20 Min [https://youtu.be/Fnlnw8uY6jo?si=qyCeFeTmBl8QidGp]
 - [ ] #04 How functions work in JS ❤️ & Variable Environment - 22 Min [https://youtu.be/gSDncyuGw0s?si=mhMhBiWy_2B3N5Qo]

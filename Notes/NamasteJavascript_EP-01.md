@@ -1,5 +1,7 @@
 # EP 01
 
+### How JavaScript Works 🔥& Execution Context
+
 1. Everything in Javascript happens inside an **Execution Context**.
 2. it has two components:
    - **Memory Component**: where variables and functions are stored. also called **Variable Environment**.
